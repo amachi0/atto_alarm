@@ -4,7 +4,7 @@
 
 ## 主な機能
 ### コンテスト一覧画面
-<img src="/contests.png" width="250px" style="margin:10px">
+<img src="arts/contests.png" width="250px" style="margin:10px">
 
 コンテスト情報を閲覧できます。
 
