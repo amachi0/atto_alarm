@@ -16,7 +16,7 @@
 - コンテスト開始１時間前
 
 ## アーキテクチャ
-<img src="arts/archimate.png" width="250px" style="margin:10px">
+<img src="arts/archimate.png" height="100px" style="margin:10px">
 
 アプリの状態を保持する`state`は、ChangeNotifierを継承し、状態の変更があれば、
 `notifyListeners`関数を呼びだし、`widget`に変更を通知
