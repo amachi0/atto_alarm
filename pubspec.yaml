@@ -1,0 +1,39 @@
+name: atcoderapp
+description: This is an application that notifies you when an AtCoder contest starts.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:  # 追加
+    sdk: flutter
+
+  intl: ^0.16.0
+  provider: ^4.0.5+1
+  cupertino_icons: ^0.1.2
+  progress_dialog: ^1.2.2
+  firebase_core: ^0.4.0+9
+  firebase_messaging: ^6.0.13
+  shared_preferences: ^0.5.7+3
+  admob_flutter: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_ios: 'lib/assets/icon_base.png'
+  image_path_android: 'lib/assets/icon_base.png'
+  adaptive_icon_background: 'lib/assets/icon_android_background.png'
+  adaptive_icon_foreground: 'lib/assets/icon_android_foreground.png'
+
+flutter:
+  uses-material-design: true

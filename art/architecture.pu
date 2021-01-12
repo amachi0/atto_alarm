@@ -1,0 +1,14 @@
+@startuml archimate
+left to right direction
+
+rectangle widget
+rectangle state
+rectangle api
+rectangle FirebaseCloudMessaging
+
+widget --> state : 関数の呼び出し
+state --> widget : 変更を通知
+state <--> api
+state --> FirebaseCloudMessaging
+
+@enduml

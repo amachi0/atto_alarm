@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "245146764903",
+    "firebase_url": "https://atcoder-app.firebaseio.com",
+    "project_id": "atcoder-app",
+    "storage_bucket": "atcoder-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245146764903:android:0c8a43b55aec6fd47f76c2",
+        "android_client_info": {
+          "package_name": "com.amachi0.atcoderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245146764903-5t2fteknufsea4ll9u74e0fserkcsepp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWbFr9Sid-pUNNj0fWlDKkVAVjrqH78W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245146764903-5t2fteknufsea4ll9u74e0fserkcsepp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "245146764903-1s2r9566fgdflq1iq4jcuhurtrnjlahe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.amachi0.atcoder-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
